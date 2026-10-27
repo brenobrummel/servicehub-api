@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    id BIGSERIAL PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    is_active BOOLEAN DEFAULT TRUE
+);
