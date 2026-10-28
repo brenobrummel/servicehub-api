@@ -1,6 +1,7 @@
-package com.servicehub.controller;
-import com.servicehub.model.User;
-import com.servicehub.service.UserService;
+package com.servicehub.servicehub_api.controller;
+
+import com.servicehub.servicehub_api.model.User;
+import com.servicehub.servicehub_api.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
